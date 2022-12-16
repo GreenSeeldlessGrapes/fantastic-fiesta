@@ -5,3 +5,9 @@ while True:
         exit()
     except ValueError:
         print("I can only interpret hatred in intergers, try again ")
+    except MemoryError:
+        print("YOU HATE THE ANTI CHRIST " * 7777777)
+        exit()
+    except OverflowError:
+        print("YOU HATE THE ANTI CHRIST " * 7777777)
+        exit()
