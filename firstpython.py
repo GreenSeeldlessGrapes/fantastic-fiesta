@@ -6,7 +6,7 @@ while True:
             exit()
         else:
             import random
-            print("LOSER!! " * random.randint(1,77777))
+            print("LOSER!! " * random.randint(1,100000))
             exit()
     except ValueError:
         print("I can only interpret your hatred in intergers, try again ")
